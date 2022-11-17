@@ -1,0 +1,200 @@
+/* GENERAL STYLES */
+
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* HEADER */
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    display:block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(32, 40, 81);
+    color: rgb(32, 40, 81);
+}
+
+header h1 {
+    display: inline;
+    text-align: center;
+    font-size: 30px;    
+}
+h1 span {
+    background-color: rgb(7, 223, 190);
+}
+
+
+header h1 .service {
+    color: rgb(7, 223, 190);
+}
+
+header nav {
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 5px;
+    text-align: right;
+}
+
+/* TEXT STYLES */
+
+a {
+    color:rgb(7, 223, 190);
+    text-decoration: underline;
+}
+
+a:hover {
+    color:rgb(223, 7, 75);
+}
+
+p {
+    font-size: 16px;
+}
+
+/* HERO DIV WITH BACKGROUND IMAGE */
+
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 25px;
+    background-image: url("./images/AdobeStock_231680254.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* FLOATS */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* MAIN */
+
+main {
+    width: 100%;
+    display: inline-block;
+}
+
+/* LISTED WORKS */
+
+.service {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkslategrey;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+  }
+
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+    margin-top: 10px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.vertical {
+    border-left: solid 3px rgb(32, 40, 81);
+    height: auto;
+    padding-left: 20px;
+}  
+
+.service img {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: inherit;
+    align-self: auto;
+    align-content: stretch;
+    gap: 50px 50px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.service img:hover {
+    transform: scale(1.2);
+}
+
+img.bigger {
+    width: 105%;
+    height: 105%;
+}
+
+/* Took me so long to figure out the text box overlay, it's not perfect but I am so happy! */
+.container {
+    display: inline-flex;
+} 
+
+.textblock {
+    position: absolute;
+    border-radius: 10%;
+    margin-block: 20px;
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(7, 223, 190);
+    opacity: .6;
+    color: rgb(32, 40, 81);
+}
+
+.service h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Risizing this image took me way too long - thank you html img tag! */
+img.resize {
+    width: 100px;
+    height: 100px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 12px;
+}
