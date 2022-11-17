@@ -1,6 +1,6 @@
 # BecomingACoder
 
-##Creating a beautiful porfolio working website for my future codng expirence and work.
+Creating a beautiful porfolio working website for my future codng expirence and work.
 
 This site includes a fixed header with interactive and clickable navigation and images.
 Hover was something I wanted to expirement with in this CSS.
